@@ -208,10 +208,10 @@ MonoBehaviour:
   HasSourceProject: 0
   HasPlatforms: 0
   sourceProjectPath: 
-  sourceBankPath: 
+  sourceBankPath: FMODAsset/Desktop
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
-  ShowBankRefreshWindow: 1
+  ShowBankRefreshWindow: 0
   AutomaticEventLoading: 1
   BankLoadType: 0
   AutomaticSampleLoading: 0
@@ -229,11 +229,12 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
+  MasterBanks:
+  - Master
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
-  EnableMemoryTracking: 0
+  EnableMemoryTracking: 1
   AndroidUseOBB: 0
   MeterChannelOrdering: 0
   StopEventsOutsideMaxDistance: 0
@@ -241,7 +242,7 @@ MonoBehaviour:
   EnableErrorCallback: 0
   SharedLibraryUpdateStage: 0
   SharedLibraryTimeSinceStart: 0
-  HideSetupWizard: 0
+  HideSetupWizard: 1
   Platforms:
   - {fileID: 1538014780170347945}
   - {fileID: 2935538262823051597}
@@ -279,7 +280,7 @@ MonoBehaviour:
       Value: 0
       HasValue: 0
     Overlay:
-      Value: 1
+      Value: 0
       HasValue: 1
     Logging:
       Value: 0
@@ -547,8 +548,8 @@ MonoBehaviour:
       Value: 
       HasValue: 0
     SpeakerMode:
-      Value: 0
-      HasValue: 0
+      Value: 3
+      HasValue: 1
     VirtualChannelCount:
       Value: 0
       HasValue: 0
